@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صبا بهپر ایرانیان - شرکت معدنی پیشرو</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800;900&family=Vazirmatn:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Top Bar -->
+    <div class="header-top">
+        <div class="container">
+            <div class="language-switch">
+                <button class="active">FA</button>
+                <button>EN</button>
+            </div>
+            <div class="header-contact">
+                <a href="tel:+982177614878"><i class="fas fa-phone"></i> 021-77614878</a>
+                <a href="mailto:info@sababehpariranian.com"><i class="fas fa-envelope"></i> info@sababehpariranian.com</a>
+                <div class="smart-search">
+                    <input type="text" placeholder="جستجو...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header / Navigation -->
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="لوگو" onerror="this.style.display='none'">
+                <span class="company-name">صبا بهپر ایرانیان</span>
+            </a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#">خانه</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">محصولات</a></li>
+                <li><a href="#">صنایع</a></li>
+                <li><a href="#">اخبار و مقالات</a></li>
+                <li><a href="#">مرکز فنی و نوآوری</a></li>
+                <li><a href="#">لجستیک و صادرات</a></li>
+                <li><a href="#">فرصت‌های شغلی</a></li>
+                <li><a href="#" class="contact-btn">تماس با ما</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section with Slider -->
+    <section class="hero" id="heroSlider">
+        <div class="slide active" style="background-image: url('images/Sababehpar_intro.jpg');">
+            <div class="slide-content">
+                <h2>استخراج و فرآوری مواد معدنی با بالاترین کیفیت</h2>
+                <p>شرکت صبا بهپر ایرانیان، پیشرو در تولید پودرهای میکرونیزه کربنات کلسیم</p>
+                <a href="#" class="btn">بیشتر بدانید</a>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('images/exp.jpg');">
+            <div class="slide-content">
+                <h2>بیش از ۳۰ سال تجربه در صنعت معدن</h2>
+                <p>از اکتشاف تا صادرات، همراه شما هستیم</p>
+                <a href="#" class="btn">درباره ما</a>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('images/tec.jpg');">
+            <div class="slide-content">
+                <h2>فناوری‌های نوین در آزمایشگاه‌های تخصصی</h2>
+                <p>کنترل کیفیت دقیق با استفاده از هوش مصنوعی</p>
+                <a href="#" class="btn">مرکز نوآوری</a>
+            </div>
+        </div>
+        <button class="slider-arrow arrow-right" id="prevSlide">▸</button>
+        <button class="slider-arrow arrow-left" id="nextSlide">◂</button>
+        <div class="slider-dots" id="sliderDots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </section>
+
+    <!-- About Us Summary -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title">درباره ما</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>شرکت معدنی «پیرتاک» فعالیت خود را در سال ۱۳۷۲ با هدف اکتشاف، استخراج و فرآوری مواد معدنی آغاز نمود. در سال ۱۳۹۳ شرکت صبا بهپر ایرانیان با ماموریت فرآوری سنگ لاشه کربنات کلسیم تأسیس شد.</p>
+                    <p>خطوط تولید این شرکت قادر است با ظرفیت سالانه ۳۰ هزار تن پودر کربنات کلسیم، انواع دانه‌بندی از مش ۴۰۰ تا ۲۵۰۰ را تولید نماید.</p>
+                    <a href="#" class="btn">ادامه مطلب</a>
+                </div>
+                <div class="about-image">
+                    <img src="images/Sababehpar_intro.jpg" alt="درباره ما">
+                </div>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <i class="fas fa-industry"></i>
+                    <h3>۳</h3>
+                    <p>خط تولید فعال</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>۱۰۰+</h3>
+                    <p>آنالیز روزانه</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-users"></i>
+                    <h3>۱۵۰+</h3>
+                    <p>نیروی کار متخصص</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>هوش مصنوعی</h3>
+                    <p>در آزمایشگاه‌ها</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>ISO 9001</h3>
+                    <p>گواهینامه کیفیت</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section" id="products" style="background: var(--gray-50);">
+        <div class="container">
+            <h2 class="section-title">محصولات</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="images/products/calcium-carbonate.jpg" alt="کربنات کلسیم">
+                    <div class="card-body">
+                        <h3>کربنات کلسیم</h3>
+                        <p>پودر میکرونیزه با خلوص بالا برای مصارف صنعتی</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/products/micronized-powder.jpeg" alt="پودر میکرونیزه">
+                    <div class="card-body">
+                        <h3>پودر میکرونیزه</h3>
+                        <p>از مش ۴۰۰ تا ۲۵۰۰ با فرآیند کاملاً مکانیزه</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/products/ahak.jpg" alt="سنگ لاشه آهک">
+                    <div class="card-body">
+                        <h3>سنگ لاشه آهک</h3>
+                        <p>استخراج از بهترین معادن شاقز الیگودرز</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/products/calcium-seed.jpeg" alt="کربنات کلسیم دانه‌بندی">
+                    <div class="card-body">
+                        <h3>کربنات کلسیم دانه‌بندی</h3>
+                        <p>مناسب برای صنایع مختلف با بسته‌بندی اختصاصی</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="images/products/ahak-hidrate.jpeg" alt="آهک هیدراته">
+                    <div class="card-body">
+                        <h3>آهک هیدراته</h3>
+                        <p>با فرمول Ca(OH)₂ برای کاربردهای ساختمانی و شیمیایی</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/products/talk.jpeg" alt="پودر تالک">
+                    <div class="card-body">
+                        <h3>پودر تالک</h3>
+                        <p>ماده معدنی با کاربرد در صنایع آرایشی، کاغذ و پلاستیک</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/products/barit.jpeg" alt="باریت">
+                    <div class="card-body">
+                        <h3>باریت</h3>
+                        <p>ماده معدنی با وزن مخصوص بالا برای گل حفاری</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="images/products/okhra.jpeg" alt="اخرا">
+                    <div class="card-body">
+                        <h3>اخرا</h3>
+                        <p>رنگدانه طبیعی برای صنایع رنگ و ساختمان</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline">محصولات بیشتر <i class="fas fa-arrow-left"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries -->
+    <section class="section" id="industries">
+        <div class="container">
+            <h2 class="section-title">صنایع</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="glue">چسب</button>
+                <button class="tab-btn" data-tab="glass">شیشه</button>
+                <button class="tab-btn" data-tab="plastic">پلاستیک</button>
+                <button class="tab-btn" data-tab="paint">رنگ</button>
+                <button class="tab-btn" data-tab="construction">ساختمان</button>
+                <button class="tab-btn" data-tab="paper">کاغذ</button>
+            </div>
+            <div class="tab-content active" id="glue">
+                <div class="industries-grid">
+                    <div class="industry-card">
+                        <i class="fas fa-industry"></i>
+                        <h3>چسب‌های صنعتی</h3>
+                        <p>کربنات کلسیم به عنوان پرکننده در تولید چسب‌های صنعتی</p>
+                    </div>
+                    <div class="industry-card">
+                        <i class="fas fa-tint"></i>
+                        <h3>چسب‌های ساختمانی</h3>
+                        <p>بهبود خواص چسبندگی و کاهش هزینه</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="glass">
+                <div class="industries-grid">
+                    <div class="industry-card">
+                        <i class="fas fa-glass-martini"></i>
+                        <h3>شیشه‌سازی</h3>
+                        <p>تأمین کربنات کلسیم با خلوص بالا برای صنعت شیشه</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="plastic">
+                <div class="industries-grid">
+                    <div class="industry-card">
+                        <i class="fas fa-box"></i>
+                        <h3>پلاستیک</h3>
+                        <p>پرکننده معدنی در تولید انواع پلاستیک</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="paint">
+                <div class="industries-grid">
+                    <div class="industry-card">
+                        <i class="fas fa-paint-roller"></i>
+                        <h3>رنگ‌سازی</h3>
+                        <p>پیگمنت و پرکننده در تولید رنگ‌های صنعتی و ساختمانی</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="construction">
+                <div class="industries-grid">
+                    <div class="industry-card">
+                        <i class="fas fa-hard-hat"></i>
+                        <h3>مصالح ساختمانی</h3>
+                        <p>کاربرد در سیمان، بتن و گچ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="paper">
+                <div class="industries-grid">
+                    <div class="industry-card">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>کاغذسازی</h3>
+                        <p>بهبود کیفیت و کاهش هزینه تولید کاغذ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KPI Section -->
+    <section class="section" id="kpi" style="background: var(--white);">
+        <div class="container">
+            <h2 class="section-title">شاخص‌های کلیدی</h2>
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <div class="chart-value" data-target="30">۰</div>
+                    <div class="chart-label">سال سابقه کار</div>
+                    <div class="progress-bar"><div class="progress-fill" data-width="90" style="width: 0%;"></div></div>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-value" data-target="30000">۰</div>
+                    <div class="chart-label">تن تولید سالانه</div>
+                    <div class="progress-bar"><div class="progress-fill" data-width="75" style="width: 0%;"></div></div>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-value" data-target="2500">۰</div>
+                    <div class="chart-label">تن تولید ماهانه</div>
+                    <div class="progress-bar"><div class="progress-fill" data-width="60" style="width: 0%;"></div></div>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-value" data-target="80">۰</div>
+                    <div class="chart-label">تن تولید روزانه</div>
+                    <div class="progress-bar"><div class="progress-fill" data-width="40" style="width: 0%;"></div></div>
+                </div>
+                <div class="chart-card">
+                    <div class="chart-value" data-target="150">۰</div>
+                    <div class="chart-label">نیروی کار</div>
+                    <div class="progress-bar"><div class="progress-fill" data-width="85" style="width: 0%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News & Articles -->
+    <section class="section" id="news">
+        <div class="container">
+            <h2 class="section-title">اخبار و مقالات</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1585829365295-ab7cd400c167?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="خبر ۱">
+                    <div class="card-body">
+                        <div class="date">۱۵ اردیبهشت ۱۴۰۵</div>
+                        <h3>افزایش ظرفیت تولید با راه‌اندازی خط جدید</h3>
+                        <p>شرکت صبا بهپر ایرانیان از راه‌اندازی خط تولید جدید خود خبر داد.</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="خبر ۲">
+                    <div class="card-body">
+                        <div class="date">۲۸ فروردین ۱۴۰۵</div>
+                        <h3>دریافت گواهینامه ISO 9001:2015</h3>
+                        <p>مدیریت کیفیت در صبا بهپر با استانداردهای بین‌المللی همگام شد.</p>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="خبر ۳">
+                    <div class="card-body">
+                        <div class="date">۱۰ اسفند ۱۴۰۴</div>
+                        <h3>حضور در بیست و سومین نمایشگاه بین‌المللی</h3>
+                        <p>صبا بهپر ایرانیان در نمایشگاه بین‌المللی سنگ و معدن حضور یافت.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline">اخبار بیشتر <i class="fas fa-arrow-left"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>صبا بهپر ایرانیان</h4>
+                    <p>شرکت معدنی پیشرو در استخراج و فرآوری مواد معدنی با بیش از ۳۰ سال تجربه.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>لینک‌های مفید</h4>
+                    <ul>
+                        <li><a href="#">درباره ما</a></li>
+                        <li><a href="#">محصولات</a></li>
+                        <li><a href="#">اخبار</a></li>
+                        <li><a href="#">تماس با ما</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>اطلاعات تماس</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> 021-77614878</li>
+                        <li><i class="fas fa-fax"></i> 021-77501055</li>
+                        <li><i class="fas fa-mobile-alt"></i> 09123956647</li>
+                        <li><i class="fas fa-envelope"></i> info@sababehpariranian.com</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>آدرس</h4>
+                    <p><strong>دفتر مرکزی:</strong> تهران، خیابان شریعتی، خیابان حقوقی، پلاک ۶۰، طبقه پنجم</p>
+                    <p><strong>کارخانه:</strong> الیگودرز، کیلومتر ۵ جاده قدیم اصفهان</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© ۱۴۰۵ تمامی حقوق متعلق به شرکت صبا بهپر ایرانیان می‌باشد.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
