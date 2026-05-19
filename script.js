@@ -13,13 +13,11 @@ if (!backdrop) {
 function closeMenu() {
     navMenu.classList.remove('active');
     backdrop.classList.remove('active');
-    document.body.style.overflow = ''; // restore scroll
 }
 
 function openMenu() {
     navMenu.classList.add('active');
     backdrop.classList.add('active');
-    document.body.style.overflow = 'hidden'; // prevent background scroll
 }
 
 mobileMenuBtn.addEventListener('click', (e) => {
